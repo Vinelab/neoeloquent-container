@@ -1,4 +1,4 @@
-<?php namespace Illuminate\Container;
+<?php namespace Vinelab\NeoEloquent\Container;
 
 use Exception;
 

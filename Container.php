@@ -1,4 +1,4 @@
-<?php namespace Illuminate\Container;
+<?php namespace Vinelab\NeoEloquent\Container;
 
 use Closure;
 use ArrayAccess;
@@ -7,7 +7,7 @@ use ReflectionMethod;
 use ReflectionFunction;
 use ReflectionParameter;
 use InvalidArgumentException;
-use Illuminate\Contracts\Container\Container as ContainerContract;
+use Vinelab\NeoEloquent\Contracts\Container\Container as ContainerContract;
 
 class Container implements ArrayAccess, ContainerContract {
 
