@@ -1,11 +1,11 @@
 <?php
 
-namespace Illuminate\Container;
+namespace Vinelab\NeoEloquent\Container;
 
 use Exception;
 
 /**
- * @deprecated since version 5.1. Use Illuminate\Contracts\Container\BindingResolutionException.
+ * @deprecated since version 5.1. use Vinelab\NeoEloquent\Contracts\Container\BindingResolutionException.
  */
 class BindingResolutionException extends Exception
 {

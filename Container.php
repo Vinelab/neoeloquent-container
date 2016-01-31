@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Container;
+namespace Vinelab\NeoEloquent\Container;
 
 use Closure;
 use ArrayAccess;
@@ -9,8 +9,8 @@ use ReflectionMethod;
 use ReflectionFunction;
 use ReflectionParameter;
 use InvalidArgumentException;
-use Illuminate\Contracts\Container\Container as ContainerContract;
-use Illuminate\Contracts\Container\BindingResolutionException as BindingResolutionContractException;
+use Vinelab\NeoEloquent\Contracts\Container\Container as ContainerContract;
+use Vinelab\NeoEloquent\Contracts\Container\BindingResolutionException as BindingResolutionContractException;
 
 class Container implements ArrayAccess, ContainerContract
 {
