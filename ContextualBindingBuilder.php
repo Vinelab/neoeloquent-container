@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Container;
+namespace Vinelab\NeoEloquent\Container;
 
-use Illuminate\Contracts\Container\ContextualBindingBuilder as ContextualBindingBuilderContract;
+use Vinelab\NeoEloquent\Contracts\Container\ContextualBindingBuilder as ContextualBindingBuilderContract;
 
 class ContextualBindingBuilder implements ContextualBindingBuilderContract
 {
