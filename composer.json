@@ -21,6 +21,11 @@
         "php": ">=5.6.4",
         "vinelab/neoeloquent-contracts": "5.1.*"
     },
+    "autoload": {
+        "psr-4": {
+            "Vinelab\\NeoEloquent\\Container\\": ""
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "5.1-dev"
